@@ -1,0 +1,55 @@
+/* ==== GENERAL STYLES ==== */
+
+body {
+    background-color: #eee;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  section {
+    max-width: 470px;
+    padding: 10px;
+    margin: 20px auto;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  /* ==== FLAT BUTTONS ==== */
+  
+  /* The base of every button */
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.42857143;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    white-space: nowrap;
+    vertical-align: middle;
+    color: #000;
+  }
+  
+  /* Additional styles for hover */
+  
+  .btn:hover {
+    color: #fff;
+    background-color: #000;
+    transition: 0.2s;
+  }
+  
+  
+  
+  
